@@ -7,6 +7,15 @@
 {
     padding-left:2%;
 }
+    .position-category:before
+    {
+        content:url('../images/green-beaker.png');
+
+        position:relative; /*or absolute*/
+        z-index:100000; /*a number that's more than the modal box*/
+        left: -30px;
+        top:20px;
+    }
 
 .position-description
 {

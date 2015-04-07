@@ -1,5 +1,22 @@
+
 .story-name
 {}
 
 .story-description
 {}
+
+.news-section li:before
+{
+    content:url('../images/beaker.png');
+
+    position:relative; /*or absolute*/
+    z-index:100000; /*a number that's more than the modal box*/
+    left: 0px;
+    top:10px;
+}
+
+
+.news-section li a:before
+{
+    content:"        ";
+}
