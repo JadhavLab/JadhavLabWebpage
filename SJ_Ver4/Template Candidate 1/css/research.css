@@ -1,0 +1,85 @@
+
+
+#content.research
+{
+    width:987px;
+
+    padding-left:3%;
+}
+
+.topic
+{
+    padding-left:2%;
+}
+
+    .name
+    {
+        margin-bottom:1em;
+    }
+
+    .description
+    {
+        padding-left:2%;
+    }
+        /*.description p:first-of-type:first-letter*/
+        /*{*/
+            /*color: #528aff;*/
+            /*font-size: 18pt;*/
+            /*text-transform: capitalize;*/
+        /*}*/
+        /*.description p:first-of-type:first-letter::after*/
+        /*{*/
+            /*content: "   ";*/
+        /*}*/
+
+        .description p
+        {
+            line-height: 150%;
+        }
+
+    .figure
+    {
+        border-color: #31516A;
+        border-width:0.2em;
+        border-style:dashed;
+
+        width:100%;
+        position: relative;
+
+        padding:1em;
+        margin:1em;
+    }
+        .figure img
+        {
+            width:100%;
+        }
+
+        .figure .figure-caption::before
+        {
+            content:'Figure caption: ';
+            font-weight:400;
+        }
+
+        .figure .figure-caption
+        {before:'Figure Caption:'}
+
+
+/*
+BASIC POSITIONAL CLASS SYSTEMS
+*/
+.right
+{
+    width:50%;
+    float:right;
+    clear:right;
+}
+
+.left
+{
+    width:50%;
+    float:left;
+    clear:right;
+}
+
+.left-right
+{clear:both;}

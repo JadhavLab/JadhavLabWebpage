@@ -1,0 +1,101 @@
+
+
+/*
+MAIN PEOPLE INFORMATION CLASS TYPES
+    tabbed over means it is contained in the class tabbed behind it.
+*/
+.people
+{
+    padding-left:5%;
+}
+
+/*specifies the personnel sections!*/
+.personneltype
+{
+    /*borders between people section*/
+    border-top: dotted;
+
+    /**/
+    flush:left;
+
+    /*margins*/
+    margin-top:1em;
+    margin-bottom:1em;
+
+    /*padding*/
+    padding-top:1em;
+    padding-bottom:1em;
+}
+
+/*Starts a section about a person*/
+.person
+{
+    padding-left:3%;
+}
+    /*Begins name subclass*/
+    .name
+    {
+    }
+
+    /*
+    Picture system controls! Uses a CSS solution because just src'ing an image
+    with sizing specifications can lead to malformed images. This system forces
+    user's image underneath a window that crops out excess image.
+    */
+    .biopic
+    {
+    }
+
+        .biopic img
+        {
+            background-image: url("../images/ratmugshot.jpg");
+            background-size: contain;
+            background-repeat: no-repeat;
+            width:150px;
+            height:150px;
+        }
+
+            .biopic img#shantanu
+            {
+                background-image: url("../images/Jadhav.jpg");
+                background-size: contain;
+                background-repeat: no-repeat;
+                background-position: center;
+            }
+
+            /*.biopic img#ryan*/
+            /*{*/
+                /*background-image: url("../images/ryan.jpeg");*/
+                /*background-size: 110%;*/
+                /*background-repeat: no-repeat;*/
+                /*background-position: center;*/
+            /*}*/
+
+    .details *
+    {
+        -webkit-margin-before: 0em;
+        -webkit-margin-after: 0em;
+        line-height: 110%;
+    }
+
+/*
+BASIC POSITIONAL CLASS SYSTEMS
+*/
+.right
+{
+    width:50%;
+    float:right;
+    clear:right;
+}
+
+.left
+{
+    width:50%;
+    float:left;
+    clear:right;
+}
+
+.left-right
+{clear:both;}
+
+
