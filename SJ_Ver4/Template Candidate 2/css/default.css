@@ -36,7 +36,7 @@
 	
 	p
 	{
-		line-height: 180%;
+		line-height: 140%;
 	}
 	
 	strong
@@ -116,7 +116,7 @@
 	{
 		overflow: hidden;
 		display: block;
-		padding: 2.80em 0em;
+		padding: 1.2em 0em;
 		border-top: 1px solid #D1CFCE;
 	}
 	
@@ -491,7 +491,7 @@
 
 	#featured
 	{
-		height: 30em;
+		height: 25em;
 		background-image: url("../images/Gerstenzang%20Science%20Library.jpg");
 		background-position: center;
 		background-size: cover;
