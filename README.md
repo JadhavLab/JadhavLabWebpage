@@ -7,6 +7,7 @@ Future updates will elaborate the news page, and make it either more tabular or 
 ## Install
 
 To download, cd to the desired directiory. Then enter,
-...
+```
 git clone https://github.com/SynapticSage/JadhavLabWebpage
-...
+```
+
