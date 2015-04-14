@@ -140,12 +140,6 @@ ul.style2 li:first-child
 /* Social Icon Styles                                                            */
 /*********************************************************************************/
 
-.affiliations li
-{
-	list-style-type: lower-greek;
-	margin-bottom: 0.5em;
-}
-
 ul.contact
 {
 	margin: 0;

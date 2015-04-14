@@ -17,3 +17,25 @@
     border-top:dotted;
     padding-top:1em;
 }
+
+.affil-box li:before
+{
+    content:url('../images/beaker.png');
+
+    position:relative; /*or absolute*/
+    z-index:100000; /*a number that's more than the modal box*/
+    left: -10px;
+    top:10px;
+}
+
+
+.affil-box li a:before
+{
+    content:"        ";
+}
+
+.affiliations li
+{
+    list-style-type: none;
+    margin-bottom: 0.5em;
+}
