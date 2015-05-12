@@ -71,6 +71,14 @@ MAIN PEOPLE INFORMATION CLASS TYPES
                 /*background-position: center;*/
             /*}*/
 
+        .biopic img#liadan
+        {
+            background-image: url("../images/Liadan.jpg");
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+
     .details *
     {
         -webkit-margin-before: 0em;
