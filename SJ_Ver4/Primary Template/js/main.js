@@ -8,8 +8,8 @@ $(document).ready( function() {
 
     // Fade-in of main page.
     $("html").css("display","none");
-    $("html").fadeIn(1000);
+    $("html").fadeIn(300);
     $("#menu, #menu li, #menu li a").css("display","none");
-    $("#menu, #menu li, #menu li a").fadeIn(2000);
+    $("#menu, #menu li, #menu li a").fadeIn(650);
 
 });
