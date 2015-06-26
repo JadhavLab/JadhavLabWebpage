@@ -79,6 +79,35 @@ MAIN PEOPLE INFORMATION CLASS TYPES
             background-position: center;
         }
 
+        .biopic img#justin
+        {
+            background-image: url("../images/justin.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            /*background-position: center;*/
+        }
+
+        .biopic img#mark
+        {
+            background-image: url("../images/mark.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        .biopic img#linnea
+        {
+            background-image: url("../images/linnea.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        .biopic img#ryan
+        {
+            background-image: url("../images/ryan.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
     .details *
     {
         -webkit-margin-before: 0em;
