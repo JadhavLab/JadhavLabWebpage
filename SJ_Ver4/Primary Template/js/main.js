@@ -12,4 +12,9 @@ $(document).ready( function() {
     $("#menu, #menu li, #menu li a").css("display","none");
     $("#menu, #menu li, #menu li a").fadeIn(650);
 
+    // Pull news elements directly from news.html ... ie update news page and it updates the main
+    $("#news1").load("news.html .news-section li:nth-child(1)");
+    $("#news2").load("news.html .news-section li:nth-child(2)");
+    $("#news3").load("news.html .news-section li:nth-child(3)");
+
 });
