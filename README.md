@@ -1,8 +1,8 @@
 # JadhavLabWebpage
 
-This repository contains work-in-progress code for the Jadhav Lab's website. SJ_3 is the current online version. SJ_4 comprises two possible templates we're exploring. Both pages are more or less complete.
+This repository contains work-in-progress code for the Jadhav Lab's website. Code currently covers two possible templates, one of which we've chosen for our current webpage.
 
-Future updates will elaborate the news page, and make it either more tabular or blog-like in format. Future updates will also include jQuery code that will hopefully add some professional panache and wow-factor.
+Future updates will elaborate the news page structure, and make it either more tabular or blog-like in format. Future updates should also include jQuery code that will hopefully add some glitzy panache.
 
 ## Install
 
